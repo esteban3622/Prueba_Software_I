@@ -126,4 +126,4 @@ Estos ejercicios te brindarán una base sólida para comenzar a implementar prue
 
 * [Toledo Rodríguez, F., Curcio, A., & Scuoteguazza, G. (2014). Introducción a las pruebas de sistemas de información. Abstracta.](https://github.com/esteban3622/Prueba_Software_I/blob/main/Books/Introduccio%CC%81n%20a%20las%20Pruebas%20de%20Sistemas%20de%20Informacio%CC%81n%20-%20Federico%20Toledo.pdf)
 
-* [Toledo, F. (2024). Introducción a las pruebas de sistemas de información (3.ª ed.). Abstracta.]()
+* [Toledo, F. (2024). Introducción a las pruebas de sistemas de información (3.ª ed.). Abstracta.](https://github.com/esteban3622/Prueba_Software_I/blob/main/Books/libro-introduccion-pruebas-sistemas-de-informacion-federico-toledo.pdf)
