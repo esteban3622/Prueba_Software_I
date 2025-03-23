@@ -69,6 +69,61 @@ El curso está estructurado en tres etapas:
 
 ### 🥸 Códigos
 
+En esta sección encontrarás los ejemplos prácticos desarrollados durante el curso Pruebas de Software I. Cada fragmento de código ha sido diseñado para apoyar el aprendizaje de conceptos clave en el área de pruebas de software, desde los fundamentos de programación orientada a objetos hasta la automatización con herramientas modernas.
+
+Los ejercicios están organizados por temas para facilitar su consulta, reutilización y comprensión progresiva.
+
+#### 🧰 Elementos importantes de Java para Testing
+
+Antes de adentrarnos en la automatización de pruebas, es necesario manejar ciertas estructuras clave del lenguaje Java que son ampliamente utilizadas durante el testing manual y automatizado.
+
+Esta subsección incluye:
+
+- **Estructuras de control** (`if`, `switch`, `for`, `while`) aplicadas al flujo de validación de pruebas.
+- **Manejo de excepciones** (`try-catch-finally`) para capturar errores durante la ejecución de pruebas.
+- **Colecciones** (`List`, `Map`, `Set`) para manejar datos de prueba dinámicos.
+- **Manejo de archivos** para lectura de datos de entrada y registro de resultados.
+- **Lógica de validación** mediante condiciones lógicas y métodos de comparación.
+
+Estos elementos se usan comúnmente en la creación de scripts de prueba, validación de resultados y verificación de comportamiento esperado.
+
+Esta subsección contiene ejemplos de:
+
+- 
+
+#### 🧱 Programación Orientada a Objetos (POO)
+
+Esta sección contiene ejemplos de programación orientada a objetos (**POO**) en Java, un paradigma esencial para estructurar sistemas escalables y mantenibles. Aunque la asignatura se centra en testing, comprender los conceptos de clases, objetos, herencia, polimorfismo y encapsulamiento es fundamental para diseñar software testeable y estructurar correctamente los casos de prueba.
+
+Aquí encontrarás:
+
+- Creación y uso de clases y objetos.
+- Encapsulamiento mediante métodos `getters` y `setters`.
+- Herencia y uso de clases derivadas.
+- Interfaces para definir contratos reutilizables.
+- Ejemplos de estructuras de código ideales para aplicar pruebas unitarias.
+
+Esta subsección contiene ejemplos de:
+
+- 
+
+#### 🧪 Automatización con Selenium + Cucumber
+
+Esta sección reúne todos los ejemplos relacionados con la **automatización de pruebas web** usando **Selenium WebDriver** y **Cucumber** con Java. Se trata de una introducción práctica a las herramientas más usadas en la industria para pruebas funcionales automatizadas dentro de entornos ágiles y DevOps.
+
+Aquí aprenderás a:
+
+- Configurar un proyecto Java con Selenium y Cucumber.
+- Usar anotaciones de Cucumber (`@Given`, `@When`, `@Then`) para crear pruebas legibles.
+- Automatizar acciones en el navegador (clics, ingreso de datos, validaciones).
+- Integrar **Gherkin** para definir escenarios de prueba en lenguaje natural.
+- Organizar los archivos `feature`, `step definitions`, `runners` y `hooks`.
+- Generar reportes básicos del resultado de las pruebas automatizadas.
+
+Estos ejercicios te brindarán una base sólida para comenzar a implementar pruebas automatizadas en proyectos reales.
+
 ### 📚 Libros
 
-* 
+* [Toledo Rodríguez, F., Curcio, A., & Scuoteguazza, G. (2014). Introducción a las pruebas de sistemas de información. Abstracta.](https://github.com/esteban3622/Prueba_Software_I/blob/main/Books/Introduccio%CC%81n%20a%20las%20Pruebas%20de%20Sistemas%20de%20Informacio%CC%81n%20-%20Federico%20Toledo.pdf)
+
+* [Toledo, F. (2024). Introducción a las pruebas de sistemas de información (3.ª ed.). Abstracta.]()
