@@ -89,7 +89,11 @@ Estos elementos se usan comúnmente en la creación de scripts de prueba, valida
 
 Esta subsección contiene ejemplos de:
 
-- 
+- [Ejemplo de ArrayList](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/Basic%20Java/EjemploArrayList.java)
+- [Ejemplo de HashTable](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/Basic%20Java/EjemploHashTable.java)
+- [Ejemplo de Loops](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/Basic%20Java/EjemploLoop.java)
+- [Ejemplo de try-catch](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/Basic%20Java/EjemploTryCatch.java)
+
 
 #### 🧱 Programación Orientada a Objetos (POO)
 
@@ -105,7 +109,10 @@ Aquí encontrarás:
 
 Esta subsección contiene ejemplos de:
 
-- 
+- [Encapsulamiento](https://github.com/esteban3622/Prueba_Software_I/tree/main/Code/Basic%20Java/POO/encapsulamiento)
+- [Herencia](https://github.com/esteban3622/Prueba_Software_I/tree/main/Code/Basic%20Java/POO/herencia)
+- [Abstracción](https://github.com/esteban3622/Prueba_Software_I/tree/main/Code/Basic%20Java/POO/abstraccion)
+- [Polimorfismo](https://github.com/esteban3622/Prueba_Software_I/tree/main/Code/Basic%20Java/POO/polimorfismo)
 
 #### 🧪 Automatización con Selenium + Cucumber
 
