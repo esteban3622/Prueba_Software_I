@@ -134,7 +134,7 @@ Iniciamos con los siguientes ejemplos básicos con **Selenium IDE**, tener en cu
 - [Busqueda básica en Google](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/EjemplosSeleniumIDE/ExampleSearchGoogle.side)
 - [Automatizar el inicio de sesión](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/EjemplosSeleniumIDE/Example%20Test%20login.side)
 
-Ahora, vamos a iniciar con un proyecto sencillo con **Selenium WebDriver** donde vamos a iniciar la navegación hacia una página web.
+Ahora, crearemos un proyecto sencillo con **Selenium WebDriver** donde vamos a iniciar la navegación hacia una página web.
 
 - [Primer proyecto con Java y Selenium](Code/ProjectBasic)
 
