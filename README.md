@@ -129,6 +129,15 @@ Aquí aprenderás a:
 
 Estos ejercicios te brindarán una base sólida para comenzar a implementar pruebas automatizadas en proyectos reales.
 
+Iniciamos con los siguientes ejemplos básicos con **Selenium IDE**, tener en cuenta que debe trabajar desde el Navegador Mozilla Firefox e instalar la extensión de Selenium IDE.
+
+- [Busqueda básica en Google](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/EjemplosSeleniumIDE/ExampleSearchGoogle.side)
+- [Automatizar el inicio de sesión](https://github.com/esteban3622/Prueba_Software_I/blob/main/Code/EjemplosSeleniumIDE/Example%20Test%20login.side)
+
+Ahora, vamos a iniciar con un proyecto sencillo con **Selenium WebDriver** donde vamos a iniciar la navegación hacia una página web.
+
+- [Primer proyecto con Java y Selenium](Code/ProjectBasic)
+
 ### 📚 Libros
 
 * [Toledo Rodríguez, F., Curcio, A., & Scuoteguazza, G. (2014). Introducción a las pruebas de sistemas de información. Abstracta.](https://github.com/esteban3622/Prueba_Software_I/blob/main/Books/Introduccio%CC%81n%20a%20las%20Pruebas%20de%20Sistemas%20de%20Informacio%CC%81n%20-%20Federico%20Toledo.pdf)

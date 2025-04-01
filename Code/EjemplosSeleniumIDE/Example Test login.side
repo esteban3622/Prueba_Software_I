@@ -5,19 +5,12 @@
   "url": "https://practicetestautomation.com",
   "tests": [{
     "id": "f3e1faf8-38ab-4746-a8ef-cef38a4db549",
-    "name": "Case 1",
+    "name": "Case 1. Verificar texto secundario en la página PagWeb",
     "commands": [{
       "id": "c2e849b4-e79c-4df1-963f-d72bfefbc14b",
       "comment": "",
       "command": "open",
       "target": "/practice-test-login/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "392a505b-e5fd-4e94-894a-71a9432f504d",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1200x830",
       "targets": [],
       "value": ""
     }, {
@@ -34,36 +27,6 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "a9345b0e-6257-41c1-8a83-75d441cd2c51",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "0732e647-1fbf-47a7-a535-51373f6514d2",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "c3705d66-c163-47ed-bc97-19a1a8fb53d6",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
     }, {
       "id": "fea549c3-d571-4153-86bd-6a0bbc27e92e",
       "comment": "",
@@ -142,19 +105,12 @@
     }]
   }, {
     "id": "d30b697f-5e74-4288-bcb5-a6c46121976c",
-    "name": "Case 3",
+    "name": "Case 3. Verificar texto primario en la PageWeb",
     "commands": [{
       "id": "1ae332aa-1b9f-4c16-b6cf-2dae44eeb371",
       "comment": "",
       "command": "open",
       "target": "/practice-test-login/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "e9b22b8d-265f-4513-8bf9-077c3a5f616b",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1550x830",
       "targets": [],
       "value": ""
     }, {
@@ -171,36 +127,6 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "0711b60f-93d7-4729-975e-5f4f73572ce2",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "988c1057-5594-472a-9ee4-4d46dcc50fcc",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "66509ecb-68ef-4553-bed6-0bdcf837d180",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
     }, {
       "id": "b61fcd36-9c77-4041-b141-b21232071422",
       "comment": "",
@@ -269,22 +195,22 @@
         ["xpath=//h1[contains(.,'Logged In Successfully')]", "xpath:innerText"]
       ],
       "value": "Logged In Successfully"
+    }, {
+      "id": "f9411d6e-7a20-4e20-ab15-714233cca0e7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "66530336-180c-45f9-bc64-f5af8679a53c",
-    "name": "Case 2",
+    "name": "Case 2. Verificar URL de PageWeb",
     "commands": [{
       "id": "6de35cd6-1e57-4e12-bba1-cf3e898d00db",
       "comment": "",
       "command": "open",
       "target": "/practice-test-login/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "5922f50b-abb9-4feb-83d9-fb287cbbc572",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1550x830",
       "targets": [],
       "value": ""
     }, {
@@ -301,36 +227,6 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "b794cc85-0b58-44d3-99cb-3291b415b013",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "739e8e35-6b86-4dd6-9e53-5fa044aef073",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "b5c2b02b-19b6-4af1-9188-a2cdcdc775b0",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
     }, {
       "id": "3228ac1c-1ecd-43fa-83cb-e45af476ce32",
       "comment": "",
@@ -401,22 +297,22 @@
       "target": "pageurl",
       "targets": [],
       "value": "https://practicetestautomation.com/logged-in-successfully/"
+    }, {
+      "id": "0cc276de-e1cd-42c7-83cf-95aabf2883ff",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "c39e3f5f-402f-4c09-a8c4-f7d07564b1ed",
-    "name": "Case 4",
+    "name": "Case 4. Verificar un elemento X en la PagWeb",
     "commands": [{
       "id": "f1cc0161-efbe-4aff-9c9c-24821fabf233",
       "comment": "",
       "command": "open",
       "target": "/practice-test-login/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "93841f45-8fa5-47a4-bdb8-edb6df9492f8",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1550x830",
       "targets": [],
       "value": ""
     }, {
@@ -433,36 +329,6 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "34f0339a-0e27-44d8-8e00-2e6f95f91925",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "fdf997ee-ed48-4a7a-be72-9d51881ccd54",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
-    }, {
-      "id": "c642fa29-edaa-4bf4-83c7-49aad213bc77",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1535,444"
     }, {
       "id": "ab66d7f8-2728-459b-ae58-0142473b46da",
       "comment": "",
@@ -530,6 +396,13 @@
         ["xpath=//div[@id='site-title']/a/img", "xpath:idRelative"],
         ["xpath=//a/img", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "f3adc970-4ef6-49b1-9e0b-2e5dd6e5ec5d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
