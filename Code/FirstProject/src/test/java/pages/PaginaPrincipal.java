@@ -7,7 +7,7 @@ public class PaginaPrincipal extends BasePage {
     }
 
     public void navigateToGoogle() {
-        navigateTo("https://www.google.com");
+        navigateTo("https://www.freerangetesters.com/");
     }
     
 }

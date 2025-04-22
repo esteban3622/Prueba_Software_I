@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,7 +19,6 @@ public class BasePage {
     static {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        // driver.manage().window().maximize();
     }
 
     public BasePage(WebDriver driver) {
@@ -31,7 +29,7 @@ public class BasePage {
         driver.get(url);
     }
 
-    public void closeBrower() {
+    public static void closeBrower() {
         driver.quit();
     }
 
@@ -41,5 +39,10 @@ public class BasePage {
 
     public void ClickElement(String locator){
         Find(locator).click();
+    }
+
+    public void write(String locator, String keysToSend){
+        Find(locator).clear();
+        Find(locator).sendKeys(keysToSend);
     }
 }
