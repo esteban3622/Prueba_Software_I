@@ -17,16 +17,20 @@ public class OpenGoogle {
         driver = new ChromeDriver();
     }
     
+    // @Test
+    // public void openGoogle() {
+    //     driver.get("https://www.google.com");
+    // }
+
     @Test
-    public void openGoogle() {
-        driver.get("https://www.google.com");
+    public void openYoutube() {
+        driver.get("https://www.youtube.com");
     }
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
-    // Hola 
+    // @AfterMethod
+    // public void tearDown() {
+    //     if (driver != null) {
+    //         driver.quit();
+    //     }
+    // }
 }
