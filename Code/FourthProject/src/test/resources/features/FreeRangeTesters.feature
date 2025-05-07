@@ -3,7 +3,6 @@ Feature: Navigation
     Without logging in
     I can click the navigation bar links
  
-    Scenario: Courses are presented correctly to potential customers
+    Scenario: Users can select a plan when signing up
         Given I navigate to www.freerangetesters.com
-        When I go to Cursos using the navigation bar
-        And select Introducción al Testing
+        When I select Elegir Plan

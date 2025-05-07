@@ -20,6 +20,11 @@ public class FreeRangeTestersSteps {
     public void navigationBarUse(String section) {
         landingPage.clickOnSectionNavigationBar(section);
     }
+    
+    @When("I select Elegir Plan")
+    public void selectElegirPlan() {
+        landingPage.clickOnElegirPlanButton();
+    }
  
     @And("select Introducción al Testing")
     public void navigateToIntro() {
