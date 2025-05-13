@@ -44,8 +44,8 @@ public class FreeRangeSteps {
     @Then("I can validate the options in the checkout page")
     public void validateCheckoutPlans() {
         List<String> lista = registro.returnPlanDropdownValues();
-        List<String> listaEsperada = Arrays.asList("Academia: $16.99 / mes • 11 productos",
-                "Academia: $176 / año • 11 productos", "Free: Gratis • 1 producto");
+        List<String> listaEsperada = Arrays.asList("Academia: $16.99 / mes • 14 productos",
+                "Academia: $176 / año • 14 productos", "Free: Gratis • 3 productos");
  
         Assert.assertEquals(listaEsperada, lista);
     }
