@@ -2,7 +2,7 @@ package pages;
 
 public class PaginaPrincipal extends BasePage {
 
-    private String sectionLink = "//a[normalize-space()='%s' and @href]";
+    private String sectionLink = "//a[@class='sc-hORkcV khhKqW sc-fAomSb sc-ijEwUV ibWYYr urOie'][normalize-space()='%s']";
  
     public PaginaPrincipal() {
         super(driver);
