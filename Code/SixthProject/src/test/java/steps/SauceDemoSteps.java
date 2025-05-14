@@ -3,11 +3,13 @@ package steps;
 import org.testng.Assert;
 
 import io.cucumber.java.en.*;
+import pages.PaginaInventory;
 import pages.PaginaPrincipal;
  
 public class SauceDemoSteps {
  
     PaginaPrincipal landingPage = new PaginaPrincipal();
+    PaginaInventory inventoryPage = new PaginaInventory();
  
     @Given("Navego a la página de inicio de sesión de Saucedemo")
     public void iNavigateToFRT() {
@@ -29,9 +31,16 @@ public class SauceDemoSteps {
         landingPage.clickOnLoginButton();
     }
     
-    @Then("Debería mostrar un mensaje de error de inicio de sesión")
+    @Then("Debería ser redirigido a la página de productos")
     public void validateMessage(){
-        Assert.assertEquals(landingPage.getMessage(), "Epic sadface: Sorry, this user has been locked out.");
-        
+        Assert.assertEquals(inventoryPage.getElementText(), "Products");
+        // Assert.assertEquals(inventoryPage.getURLPage(), "https://www.saucedemo.com/v1/inventory.html");
+                
+    }
+
+    @Then("Debería ser redirigido a la URL {word}")
+    public void validateURL(String urlPage){
+        Assert.assertEquals(inventoryPage.getURLPage(), urlPage);
+                
     }
 }

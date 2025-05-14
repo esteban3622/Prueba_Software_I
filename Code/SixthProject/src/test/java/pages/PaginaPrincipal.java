@@ -17,12 +17,6 @@ public class PaginaPrincipal extends BasePage {
  
     }
  
-    // public void clickOnSectionNavigationBar(String section) {
-    //     // Reemplaza el marcador de posición en sectionLink con el nombre
-    //     String xpathSection = String.format(sectionLink, section);
-    //     clickElement(xpathSection);
-    // }
-
     public void writeOnUsername(String keysToSend){
         write(elementUsername, keysToSend);
     }
